@@ -22,9 +22,7 @@ Analyze the spread of COVID-19 over time by examining trends in cases, recoverie
 
 📊 Dataset Sources
 
-Our World in Data – COVID-19 Dataset
-
-Our World in Data – COVID-19 Data on GitHub
+Our World in Data – COVID-19 Dataset (https://ourworldindata.org/coronavirus)
 
 Our World in Data notes that its COVID-19 data now uses WHO data for the main cases/deaths time series; the older Johns Hopkins-based series is available as an archive.
 
@@ -62,7 +60,7 @@ Analyze World Happiness Report data to understand what factors contribute to hap
 
 📊 Dataset Sources
 
-World Happiness Report – Kaggle Dataset
+World Happiness Report – Kaggle Dataset (https://www.kaggle.com/datasets/unsdsn/world-happiness)
 
 Official World Happiness Report – Data Sharing
 
@@ -100,7 +98,7 @@ Perform Exploratory Data Analysis (EDA) on the Titanic dataset to understand the
 
 📊 Dataset Source
 
-Titanic Dataset – Kaggle
+Titanic Dataset – Kaggle(https://www.kaggle.com/c/titanic/data)
 
 The Kaggle dataset provides train.csv and test.csv; the training data contains the survival outcome used for analysis.
 
@@ -138,7 +136,7 @@ Analyze air quality data from different locations to understand pollution levels
 
 📊 Dataset Sources
 
-UCI Machine Learning Repository – Air Quality Dataset
+UCI Machine Learning Repository – Air Quality Dataset(https://archive.ics.uci.edu/dataset/360/air+quality)
 
 OpenAQ – Global Air Quality Data
 
@@ -184,7 +182,7 @@ Yahoo Finance – Historical Data
 
 Yahoo Finance Historical Data Help
 
-Kaggle – Stock Market Datasets
+Kaggle – Stock Market Datasets (https://www.kaggle.com/datasets)
 
 For Python-based data retrieval, the project may also use the yfinance library.
 
@@ -251,43 +249,6 @@ Interactive visualization
 yfinance
 
 Historical stock-market data
-
-📂 Suggested GitHub Structure
-
-If you are keeping all five projects in one repository:
-
-PR-Final-Project/
-│
-├── README.md
-│
-├── Project-1-COVID19/
-│   ├── covid_19.ipynb
-│   └── covid_19.csv
-│
-├── Project-2-Global-Happiness/
-│   ├── global_happiness.ipynb
-│   └── happiness.csv
-│
-├── Project-3-Titanic/
-│   ├── titanic.ipynb
-│   └── titanic.csv
-│
-├── Project-4-Air-Quality/
-│   ├── air_quality.ipynb
-│   └── air_quality.csv
-│
-└── Project-5-Stock-Market/
-    ├── stock_market.ipynb
-    └── stock_market.csv
-
-If the submission contains only one selected project, keep the repository simpler:
-
-PR-Final-Project/
-│
-├── README.md
-├── project.ipynb
-├── dataset.csv
-└── screenshots/
 
 🔄 Project Workflow
 
@@ -376,7 +337,4 @@ Share Repository Link with Teacher
 Vaibhavi Khokhani
 
 Python & AI Fresher | BCA Graduate
-
-⭐ Project Submission
-
 This project is maintained on GitHub. The GitHub repository contains the project documentation, notebook, dataset, analysis, and visualizations required for submission.
